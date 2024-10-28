@@ -1,0 +1,15 @@
+{
+  "metaData": {
+    "title": "",
+    "description": ""
+  },
+  "slider": [{
+    "img": "slider/slider-homePage",
+    "titleImg": "homePage",
+    "title": "Finky : Entreprise de conseil en gestion et RH en Tunisie",
+    "desc": [
+      "Finky est une entreprise de conseil en gestion et ressources humaines (RH) innovante en Tunisie. Située à Radès Meliane, dans le gouvernorat de Ben Arous, nous mettons notre expertise au service de nos clients à travers toute la Tunisie.",
+      "En tant qu'entreprise de gestion et conseil, notre objectif est d'accompagner les entreprises dans leur développement stratégique et humain."
+    ]
+}]
+}

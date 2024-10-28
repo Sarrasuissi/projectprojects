@@ -1,0 +1,85 @@
+@import "./global-variables.scss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  .menu-principal {
+    z-index: 1000 !important;
+  }
+  body {
+    font-size: 15px;
+    max-width: 1920px;
+    display: block;
+    margin: auto;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $purple;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $purple;
+  }
+  p,
+  li {
+    font-family: "roboto medium";
+    font-size: 1.07rem;
+    line-height: 33px;
+    @media screen and (max-width: 992px) {
+      font-size: 1rem;
+    }
+  }
+  ul {
+    list-style-type: none;
+    li {
+      position: relative;
+      padding-left: 30px;
+    }
+  }
+  h1 {
+    font-family: "Roboto medium";
+    font-size: 2.14rem;
+    line-height: 45px;
+
+    @media screen and (max-width: 992px) {
+      font-size: 1.7rem;
+    }
+  }
+  h2 {
+    font-size: 1.74rem;
+    font-family: "Roboto medium";
+    line-height: 45px;
+    @media screen and (max-width: 992px) {
+      font-size: 1.4rem;
+    }
+  }
+  h3 {
+    font-size: 1.47rem;
+    font-family: "roboto medium";
+    line-height: 45px;
+    @media screen and (max-width: 992px) {
+      font-size: 1.2rem;
+    }
+  }
+}

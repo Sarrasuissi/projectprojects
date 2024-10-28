@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Roboto regular";
+  src: url("/fonts/roboto/regular/0033a2fbc0329740fb86c1cfd134cb94.eot");
+  src: url("/fonts/roboto/regular/0033a2fbc0329740fb86c1cfd134cb94.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/roboto/regular/0033a2fbc0329740fb86c1cfd134cb94.woff2")
+      format("woff2"),
+    url("/fonts/roboto/regular/0033a2fbc0329740fb86c1cfd134cb94.woff")
+      format("woff"),
+    url("/fonts/roboto/regular/0033a2fbc0329740fb86c1cfd134cb94.ttf")
+      format("truetype"),
+    url("/fonts/roboto/regular/0033a2fbc0329740fb86c1cfd134cb94.svg#Roboto")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Roboto bold";
+  src: url("/fonts/roboto/bold/002209bee8df7c3666a712ebd9253f60.eot");
+  src: url("/fonts/roboto/bold/002209bee8df7c3666a712ebd9253f60.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/roboto/bold/002209bee8df7c3666a712ebd9253f60.woff2")
+      format("woff2"),
+    url("/fonts/roboto/bold/002209bee8df7c3666a712ebd9253f60.woff")
+      format("woff"),
+    url("/fonts/roboto/bold/002209bee8df7c3666a712ebd9253f60.ttf")
+      format("truetype"),
+    url("/fonts/roboto/bold/002209bee8df7c3666a712ebd9253f60.svg#Roboto Bold")
+      format("svg");
+}
+@font-face {
+  font-family: "Roboto medium";
+  src: url("/fonts/roboto/medium/021e919fd2310de5f9ad257e4b9be77e.eot");
+  src: url("/fonts/roboto/medium/021e919fd2310de5f9ad257e4b9be77e.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/roboto/medium/021e919fd2310de5f9ad257e4b9be77e.woff2")
+      format("woff2"),
+    url("/fonts/roboto/medium/021e919fd2310de5f9ad257e4b9be77e.woff")
+      format("woff"),
+    url("/fonts/roboto/medium/021e919fd2310de5f9ad257e4b9be77e.ttf")
+      format("truetype"),
+    url("/fonts/roboto/medium/021e919fd2310de5f9ad257e4b9be77e.svg#Roboto Medium")
+      format("svg");
+}
+@font-face {
+  font-family: "Roboto black";
+  src: url("/fonts/roboto/black/1a00134f7baf6a4783dc1135145a361b.eot");
+  src: url("/fonts/roboto/black/1a00134f7baf6a4783dc1135145a361b.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/roboto/black/1a00134f7baf6a4783dc1135145a361b.woff2")
+      format("woff2"),
+    url("/fonts/roboto/black/1a00134f7baf6a4783dc1135145a361b.woff")
+      format("woff"),
+    url("/fonts/roboto/black/1a00134f7baf6a4783dc1135145a361b.ttf")
+      format("truetype"),
+    url("/fonts/roboto/black/1a00134f7baf6a4783dc1135145a361b.svg#Roboto Black V1")
+      format("svg");
+}
+
+$boxShaddow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+$purple: #6e7aa8;
+$darkBlue: #0d1423;
+$lightBlue: #8caefc;
+$gray: #f7f9fd;
+$white: #ffffff;
+$black: #000000;

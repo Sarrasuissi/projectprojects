@@ -1,0 +1,69 @@
+@import "./../../app/global-variables.scss";
+
+.slider {
+  $animation-duration: 1s;
+  $animation-easing: ease;
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .title {
+    transform: translateY(100%);
+    opacity: 0;
+    animation: slideUp $animation-duration $animation-easing forwards;
+    font-size: 45px;
+    line-height: 80px;
+    width: fit-content;
+    max-width: 900px;
+    font-family: "Roboto-bold" !important;
+    font-weight: bolder;
+    color: $white;
+
+    top: 50%;
+    left: 50%;
+
+    @media screen and (max-width: 767px) {
+      font-size: 50px;
+      line-height: 60px;
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  .slick-prev,
+  .slick-next {
+    width: 40px;
+    height: 40px;
+    &:before {
+      color: $white;
+      font-weight: 600;
+      font-size: 35px;
+      opacity: 1;
+    }
+  }
+  .slick-prev {
+    left: 0% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 7% !important;
+  }
+
+  .animation {
+    @extend .title;
+  }
+  .icon-container {
+    &:hover .fa-icon {
+      animation: iconSlideIn 1s backwards;
+    }
+  }
+}
