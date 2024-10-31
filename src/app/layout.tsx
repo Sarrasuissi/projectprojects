@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.scss";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
-
+import data from "@/data/header.json";
 const inter = Inter({ subsets: ["latin"] });
 export const viewport: Viewport = {
   themeColor: [
@@ -29,8 +29,8 @@ export default function RootLayout({
       {/* <GoogleAnalytics gaId="G-THRVPLR1HX" />
       <GoogleTagManager gtmId="GT-MQ7V4CSL" /> */}
       <body className={inter.className}>
-        <div className="menu-principal sticky top-0">
-          <Header />
+      <div className="menu-principal sticky top-0">
+          <Header data={data} />
         </div>
         {children}
         <Footer />

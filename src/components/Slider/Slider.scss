@@ -43,6 +43,7 @@
   .slick-next {
     width: 40px;
     height: 40px;
+
     &:before {
       color: $white;
       font-weight: 600;
@@ -61,6 +62,7 @@
   .animation {
     @extend .title;
   }
+
   .icon-container {
     &:hover .fa-icon {
       animation: iconSlideIn 1s backwards;

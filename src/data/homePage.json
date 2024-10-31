@@ -3,13 +3,209 @@
     "title": "",
     "description": ""
   },
-  "slider": [{
-    "img": "slider/slider-homePage",
-    "titleImg": "homePage",
-    "title": "Finky : Entreprise de conseil en gestion et RH en Tunisie",
-    "desc": [
-      "Finky est une entreprise de conseil en gestion et ressources humaines (RH) innovante en Tunisie. Située à Radès Meliane, dans le gouvernorat de Ben Arous, nous mettons notre expertise au service de nos clients à travers toute la Tunisie.",
-      "En tant qu'entreprise de gestion et conseil, notre objectif est d'accompagner les entreprises dans leur développement stratégique et humain."
+  "slider": [
+    {
+      "img": "slider/slider-home-page",
+      "titleImg": "homePage",
+      "title": "Finky : Entreprise de conseil en gestion et RH en Tunisie",
+      "desc": [
+        "Finky est une entreprise de conseil en gestion et ressources humaines (RH) innovante en Tunisie. Située à Radès Meliane, dans le gouvernorat de Ben Arous, nous mettons notre expertise au service de nos clients à travers toute la Tunisie.",
+        "En tant qu'entreprise de gestion et conseil, notre objectif est d'accompagner les entreprises dans leur développement stratégique et humain."
+      ]
+    }
+  ],
+  "cardCircle": {
+    "img": "home/vision-et-valeurs",
+    "titleImg": "Vision et Valeurs",
+    "title": "Vision et Valeurs",
+    "descriptions": [
+      {
+        "desc": "Chez Finky, nous croyons que la clé du succès réside dans une gestion proactive et une optimisation des ressources humaines. "
+      },
+      {
+        "desc": "En tant qu'entreprise de conseil en gestion et RH en Tunisie, nous nous engageons à transformer les défis en opportunités en proposant des solutions sur mesure qui favorisent l’innovation et la performance."
+      }
     ]
-}]
+  },
+  "cardBgImg": {
+    "title": "Nos services",
+    "listItem": [
+      {
+        "subTitle": "1- Conseil en gestion stratégique",
+        "subSubTitle": "Audit organisationnel",
+        "desc": "Analyse approfondie de la structure de votre entreprise pour identifier les axes d'amélioration."
+      },
+      {
+        "subSubTitle": "Développement de la stratégie ",
+        "desc": "Élaboration de plans d’action personnalisés pour atteindre vos objectifs d'affaires."
+      },
+      {
+        "subSubTitle": "Accompagnement au changement",
+        "desc": "Gestion des transitions organisationnelles pour garantir l'adhésion des équipes."
+      }
+    ]
+  },
+  "title2": "2- Conseil en gestion stratégique",
+  "CardWithDesc": [
+    {
+      "img": "home/recrutement-efficace",
+      "titleImg": "Recrutement efficace",
+      "subTitle": "Recrutement efficace",
+      "desc": "Processus de sélection ciblés pour attirer les meilleurs talents."
+    },
+    {
+      "img": "home/developpement-des-competences",
+      "titleImg": "Développement des compétences",
+      "subTitle": "Développement des compétences",
+      "desc": "Programmes de formation sur mesure pour faire évoluer vos équipes."
+    },
+    {
+      "img": "home/evaluation-de-la-performance",
+      "titleImg": "Évaluation de la performance",
+      "subTitle": "Évaluation de la performance",
+      "desc": "Outils et systèmes pour optimiser la performance individuelle et collective."
+    }
+  ],
+  "CardImg": {
+    "img": "home/pme-startup",
+    "titleImg": "Accompagnement des PME et startups",
+    "title": "3- Accompagnement des PME et startups",
+
+    "listItem": [
+      {
+        "subTitle": "Solutions personnalisées",
+        "desc": "Services spécialement conçus pour répondre aux besoins des PME et des startups."
+      },
+      {
+        "subTitle": "Stratégies de croissance",
+        "desc": "Conseils sur les meilleures pratiques pour un développement durable."
+      }
+    ]
+  },
+  "CardImg2": {
+    "img": "home/gestion-de-projets",
+    "titleImg": "Gestion de projets",
+    "title": "4- Gestion de projets",
+
+    "listItem": [
+      {
+        "subTitle": "Planification et exécution",
+        "desc": "Accompagnement dans la gestion de projets de A à Z."
+      },
+      {
+        "subTitle": "Suivi et reporting",
+        "desc": "Mise en place d'indicateurs pour évaluer l'avancement et l'impact des projets."
+      }
+    ]
+  },
+  "CardBgCircle": {
+    "img": "home/conseil-en-it",
+    "titleImg": "Conseil en IT",
+    "title": "5- Conseil en IT",
+    "listItems": [
+      {
+        "subTitle": "Transformation numérique",
+        "desc": "Nous accompagnons les entreprises dans leur transition digitale pour intégrer les dernières technologies et optimiser leur performance."
+      },
+      {
+        "subTitle": "Audit SI",
+        "desc": "Analyse approfondie des systèmes d'information pour identifier les points faibles et les opportunités d'amélioration."
+      }
+    ]
+  },
+  "CardWithDesc2": [
+    {
+      "img": "home/securite-des-systemes-d-information",
+      "titleImg": "Sécurité des systèmes d'information",
+      "subTitle": "Sécurité des systèmes d'information",
+      "desc": "Mise en place de stratégies pour garantir la protection des données sensibles et des infrastructures numériques."
+    },
+    {
+      "img": "home/it-erp",
+      "titleImg": "Gestion de projets IT et intégration des ERP",
+      "subTitle": "Gestion de projets IT et intégration des ERP",
+      "desc": "Nous pilotons vos projets IT, incluant l'intégration de systèmes ERP, pour assurer une transformation fluide et efficace."
+    }
+  ],
+
+  "CardDescriptions": {
+    "title": "6- Marketing et communication",
+    "listItems": [
+      {
+        "subTitle": "Stratégie marketing",
+        "desc": "Élaboration de plans marketing personnalisés pour accroître votre visibilité et atteindre vos objectifs commerciaux."
+      },
+      {
+        "subTitle": "Communication digitale",
+        "desc": "Développement de stratégies digitales innovantes pour maximiser votre présence en ligne et engager vos audiences"
+      },
+      {
+        "subTitle": "Gestion de la marque employeur",
+        "desc": "Mise en place de programmes pour renforcer votre image employeur et attirer les meilleurs talents."
+      },
+      {
+        "subTitle": "Relation presse et média",
+        "desc": "Nous gérons vos relations presse pour une couverture médiatique optimale de vos activités et de vos projets."
+      }
+    ]
+  },
+  "title7": "7- Commercial et développement des métiers",
+  "CardWithDesc3": [
+    {
+      "img": "home/optimisation-des-ventes",
+      "titleImg": "Optimisation des ventes",
+      "subTitle": "Optimisation des ventes",
+      "desc": "Nous aidons votre entreprise à améliorer ses performances commerciales grâce à des outils et des stratégies ciblées."
+    },
+    {
+      "img": "home/relation-client",
+      "titleImg": "Développement de la relation client",
+      "subTitle": "Développement de la relation client",
+      "desc": "Amélioration de la satisfaction et de la fidélisation client grâce à des pratiques de gestion de la relation client (CRM) avancées."
+    },
+    {
+      "img": "home/strategie-commerciale",
+      "titleImg": "Stratégie commerciale",
+      "subTitle": "Stratégie commerciale",
+      "desc": "Accompagnement dans la définition et la mise en œuvre d'une stratégie commerciale efficace et adaptée à votre marché."
+    }
+  ],
+  "cardTitle": {
+    "title": "Pourquoi Choisir Finky ?",
+    "desc": "En tant qu'entreprise de conseil en gestion et RH Tunisie, nous possédons une expertise locale approfondie, qui nous permet d’offrir des solutions adaptées aux spécificités culturelles et économiques du pays. Nous adoptons une approche collaborative pour concevoir des solutions qui répondent véritablement aux besoins de nos clients."
+  },
+  "cardBgImg2": {
+    "listItem": [
+      {
+        "subTitle": "Engagement envers l'excellence",
+
+        "desc": "Nous visons l’excellence dans tous nos services, en nous engageant à fournir un accompagnement de qualité supérieure. Que ce soit en matière de conseil management RH ou dans d'autres domaines tels que IT, systèmes d'information, marketing et communication, nous nous engageons à dépasser vos attentes en vous fournissant des solutions durables et sur mesure pour votre réussite."
+      }
+    ]
+  },
+  "titleTemoignages": "Témoignages",
+  "avis": [
+    {
+      "icons": "icons/stars",
+      "titleIcons": "stars",
+      "name": "-Témoignage de Mohamed Ben Ali-",
+      "desc": "Travailler avec Finky a été une expérience transformative pour notre entreprise. Leur équipe a su comprendre nos défis et proposer des solutions adaptées qui ont véritablement amélioré notre gestion des ressources humaines. "
+    },
+    {
+      "icons": "icons/stars",
+      "titleIcons": "stars",
+      "name": "-Avis de Leila Zayani-",
+      "desc": "Finky a été un partenaire précieux dans notre processus de recrutement. Grâce à leur approche ciblée, nous avons pu attirer des talents qui correspondent parfaitement à notre culture d'entreprise."
+    },
+    {
+      "icons": "icons/stars",
+      "titleIcons": "stars",
+      "name": "-Avis de Ahmed Mbarek-",
+      "desc": "L'expertise de Finky dans le conseil stratégique a été déterminante pour notre croissance. Leur accompagnement a fait la différence dans la mise en place de notre nouvelle stratégie d'affaires."
+    }
+  ],
+  "cardTitle2": {
+    "title": "Références",
+    "desc": "Notre entreprise de gestion et conseil a eu le privilège de travailler avec diverses entreprises de différents secteurs, contribuant à leur succès grâce à des solutions stratégiques et humaines."
+  }
 }

@@ -1,0 +1,33 @@
+@import "./../../app//global-variables.scss";
+.cardCircle {
+  position: relative;
+  &-image1::before {
+    content: url(/assets/icons/motif.webp);
+    position: absolute;
+    height: 50px !important;
+    width: 50px !important;
+
+    left: 0;
+    margin-left: -600px;
+    margin-top: -500px;
+    @media screen and (max-width: 1815px) {
+      margin-left: -700px;
+      margin-top: -500px;
+    }
+  }
+
+  &-image2::after {
+    content: url(/assets/icons/motif.webp);
+    position: absolute;
+    height: 50px !important;
+    width: 50px !important;
+
+    right: 0;
+    margin-right: 300px;
+    margin-top: 0px;
+    @media screen and (max-width: 1052px) {
+      margin-right: -700px;
+      margin-top: -500px;
+    }
+  }
+}
