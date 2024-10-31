@@ -1,0 +1,33 @@
+@import "./../../app/global-variables.scss";
+
+.circle {
+  position: relative;
+
+  &-image1::before {
+    content: url(/assets/icons/bg-circle.webp);
+    position: absolute;
+    top: -78px;
+    left: -110px;
+    z-index: -1;
+    @media screen and (max-width:1000px) {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+    }
+  }
+
+  &-image2 {
+
+    &::before {
+      content: url(/assets/icons/two-circle.webp);
+      position: absolute;
+      top: 0;
+      right: -200px;
+      z-index: 1;
+      background-size: cover;
+
+    }
+  }
+}
