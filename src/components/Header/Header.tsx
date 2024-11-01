@@ -50,11 +50,10 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Function to toggle dropdown visibility
   const toggleDropdown = (index: number) => {
     setListOne((prevState) => {
       const newState = Array(data.LevelOne.length).fill(false);
-      newState[index] = !prevState[index]; // Toggle the specific index
+      newState[index] = !prevState[index];
       return newState;
     });
   };

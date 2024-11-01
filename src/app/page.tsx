@@ -41,7 +41,6 @@ function page() {
           data={data.CardWithDesc}
           basisdiv="xl:basis-[30%] lg:basis-[48%] basis-full"
           maxwWidth="max-w-mwidth1"
-         
         />
       </div>
       <div className=" py-10">
@@ -58,7 +57,7 @@ function page() {
           data={data.CardWithDesc2}
           basisdiv="lg:basis-[45%] basis-full"
           maxwWidth="max-w-mediumwidth"
-           backgroundStyle="true"
+          
         />
       </div>
       <div className="bg-[#FBFBFB] py-10">
@@ -74,22 +73,26 @@ function page() {
           data={data.CardWithDesc}
           basisdiv="xl:basis-[30%] lg:basis-[48%] basis-full"
           maxwWidth="max-w-mwidth1"
+          backgroundStyle="true"
         />
       </div>
 
-      <div className="w-defaultwidth m-auto max-w-mwidth1 py-10">
+      <div className="w-defaultwidth m-auto max-w-mwidth1 py-16">
         <h2 className="text-lightBlue pb-4">{data.cardTitle.title}</h2>
-        <p>{data.cardTitle.desc}</p>
+        <p className="text-[#262626]">{data.cardTitle.desc}</p>
       </div>
       <div className="">
         <CardBgImg data={data.cardBgImg2} />
       </div>
       <div>
+        <h2 className="text-lightBlue text-center pb-4">
+          {data.titleTemoignages}
+        </h2>
         <CardAvis data={data.avis} />
       </div>
       <div className="w-defaultwidth m-auto max-w-mwidth1 py-10">
         <h2 className="text-lightBlue pb-4">{data.cardTitle2.title}</h2>
-        <p>{data.cardTitle2.desc}</p>
+        <p className="text-[#262626]">{data.cardTitle2.desc}</p>
       </div>
       <div>
         <CardFormWithImg />

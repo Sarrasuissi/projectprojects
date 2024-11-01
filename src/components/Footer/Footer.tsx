@@ -12,9 +12,9 @@ function Footer() {
         }}
       >
         <div className=" mt-28">
-          <div className="h-full w-full p-10 pb-6 text-black lg:p-14 lg:pb-6 xl:p-16 xl:pb-6 2xl:p-20 2xl:pb-6">
+          <div className="h-full w-full p-10 pb-6 text-black lg:p-14 lg:pb-6 xl:p-16 xl:pb-6 2xl:p-20 2xl:pb-6 ">
             <div className="items-center gap-6 md:flex md:gap-20 lg:flex-row lg:items-start lg:gap-4">
-              <div className="m-auto pb-5 lg:basis-1/4">
+              <div className="m-auto pb-5 lg:basis-1/4 ">
                 <img
                   src="/assets/icons/logo-footer.webp"
                   alt="eneatec logo"
@@ -23,7 +23,7 @@ function Footer() {
                   className=""
                 ></img>
                 <p className="max-w-[300px] text-black ">suivez - nous</p>
-                <div className="flex max-w-[150px] gap-6 py-5">
+                <div className="flex max-w-[200px] gap-6 py-5">
                   <div className="">
                     <Link href="/" className="h-7/12 w-7/12 ">
                       <img
@@ -61,7 +61,7 @@ function Footer() {
 
               <div className=" grid w-defaultwidth m-auto grid-cols-12  pt-4  gap-6">
                 <div className="col-span-1 mx-auto">
-                  <div className="mb-4 max-w-[200px] pt-2  font-semibold">
+                  <div className="mb-4 max-w-[200px] pt-2 ">
                     <div className="py-1 hover:text-purple pb-4">
                       <Link href="/">Acceuil </Link>
                     </div>
@@ -77,7 +77,7 @@ function Footer() {
                   </div>
                 </div>
 
-                <div className=" border-r-4  border-purple h-32"></div>
+                <div className=" lg:border-r-4  border-purple h-32"></div>
                 <div className=" col-span-2  mx-auto">
                   <div className="mb-4 max-w-[200px] pt-2 text-base">
                     <div className="py-1 hover:text-purple">
@@ -91,7 +91,7 @@ function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className=" border-r-4  border-purple h-32"></div>
+                <div className=" lg:border-r-4  border-purple h-32"></div>
                 <div className=" ms-auto col-span-3">
                   <span className="text-2xl font-semibold text-red">
                     Nos expertises
@@ -117,7 +117,8 @@ function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className=" border-r-4  border-purple h-32"></div>
+
+                <div className=" lg:border-r-4  border-purple h-32"></div>
                 <div className=" mx-auto col-span-3">
                   <span className="text-2xl font-semibold text-red">
                     Nos missions
@@ -166,3 +167,6 @@ function Footer() {
 }
 
 export default Footer;
+
+
+

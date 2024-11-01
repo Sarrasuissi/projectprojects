@@ -9,9 +9,9 @@ function CardBgImg(props: {
   return (
     <div className="lg:w-full w-defaultwidth m-auto text-white">
       <div
-        className="mb-20 py-32"
+        className="mb-20 py-44"
         style={{
-          backgroundImage: `linear-gradient(to right, rgba(10, 28, 74, 0.9), rgba(12, 32, 81, 0.5), rgba(19, 26, 46, 0.4)), url('/assets/home/nos-services.webp')`,
+          backgroundImage: `linear-gradient(to right, rgba(10, 28, 74, 0.9), rgba(12, 32, 81, 0.5), rgba(19, 26, 46, 0.4)), url('/assets/home/engagement.webp')`,
           backgroundSize: "cover",
         }}
       >
