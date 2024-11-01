@@ -30,7 +30,9 @@ function page() {
     <div>
       <Slider />
       <CardCircle data={data.cardCircle} />
+
       <CardBgImg data={data.cardBgImg} />
+
       <h3 className="w-defaultwidth m-auto max-w-mwidth1 text-darkBlue">
         {data.title2}
       </h3>
@@ -39,6 +41,7 @@ function page() {
           data={data.CardWithDesc}
           basisdiv="xl:basis-[30%] lg:basis-[48%] basis-full"
           maxwWidth="max-w-mwidth1"
+         
         />
       </div>
       <div className=" py-10">
@@ -47,27 +50,33 @@ function page() {
       <div className="  py-10">
         <CardImg data={data.CardImg2} reverse marginauto="ms-auto" />
       </div>
-      <div>
+      <div className="py-10">
         <CardBgCircle data={data.CardBgCircle} />
       </div>
-      <div className="my-20">
+      <div className="my-10">
         <CardWithDesc
           data={data.CardWithDesc2}
           basisdiv="lg:basis-[45%] basis-full"
           maxwWidth="max-w-mediumwidth"
+           backgroundStyle="true"
         />
       </div>
-      <div className="w-defaultwidth m-auto max-w-mwidth1 py-16 ">
-        <CardDescriptions data={data.CardDescriptions} />
+      <div className="bg-[#FBFBFB] py-10">
+        <div className="w-defaultwidth m-auto max-w-mwidth1  ">
+          <CardDescriptions data={data.CardDescriptions} />
+        </div>
       </div>
-      <div className="w-defaultwidth m-auto max-w-mwidth1 py-10">
+      <div className="w-defaultwidth m-auto max-w-mwidth2  py-20">
         <h3 className=" text-darkBlue">{data.title7}</h3>
       </div>
-      <CardWithDesc
-        data={data.CardWithDesc}
-        basisdiv="xl:basis-[30%] lg:basis-[48%] basis-full"
-        maxwWidth="max-w-mwidth1"
-      />
+      <div className="w-defaultwidth m-auto ">
+        <CardWithDesc
+          data={data.CardWithDesc}
+          basisdiv="xl:basis-[30%] lg:basis-[48%] basis-full"
+          maxwWidth="max-w-mwidth1"
+        />
+      </div>
+
       <div className="w-defaultwidth m-auto max-w-mwidth1 py-10">
         <h2 className="text-lightBlue pb-4">{data.cardTitle.title}</h2>
         <p>{data.cardTitle.desc}</p>

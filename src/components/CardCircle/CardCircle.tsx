@@ -24,10 +24,10 @@ function CardCircle(props: {
           </div>
           <div className="lg:basis-8/12 m-auto  cardCircle-image2">
             <div className="max-w-[850px] m-auto 2xl:ps-0 ps-10 mt-10 lg:mt-0">
-              <h1 className="pb-4">{props.data.title}</h1>
+              <h1 className="pb-4 text-darBlue">{props.data.title}</h1>
               {props.data.descriptions?.map((item, index) => (
                 <div key={index}>
-                  <p className="">{item.desc}</p>
+                  <p className="text-[#262626]">{item.desc}</p>
                 </div>
               ))}
             </div>

@@ -31,7 +31,7 @@ function CardBgCircle(props: {
         />
       </div>
       <div className="my-auto 2xl:basis-9/12 lg:basis-8/12 basis-full  px-10 ">
-        <h3 className="pb-5">{props.data.title}</h3>
+        <h3 className="pb-5 ">{props.data.title}</h3>
         {props.data.listItems?.map((item, index) => (
           <div className="pb-4 pl-6 " key={index}>
             <ul>
