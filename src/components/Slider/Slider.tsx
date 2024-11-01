@@ -29,9 +29,9 @@ function Slider() {
             Finky est une entreprise de conseil en gestion et ressources
             humaines (RH) innovante en Tunisie. Située à Radès Meliane, dans le
             gouvernorat de Ben Arous, nous mettons notre expertise au service de
-            nos clients à travers toute la Tunisie. En tant qu&lsquo;entreprise de
-            gestion et conseil, notre objectif est d&lsquo;accompagner les entreprises
-            dans leur développement stratégique et humain.
+            nos clients à travers toute la Tunisie. En tant qu&lsquo;entreprise
+            de gestion et conseil, notre objectif est d&lsquo;accompagner les
+            entreprises dans leur développement stratégique et humain.
           </p>
         </div>
       </div>

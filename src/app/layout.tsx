@@ -29,7 +29,7 @@ export default function RootLayout({
       {/* <GoogleAnalytics gaId="G-THRVPLR1HX" />
       <GoogleTagManager gtmId="GT-MQ7V4CSL" /> */}
       <body className={inter.className}>
-      <div className="menu-principal sticky top-0">
+        <div className="menu-principal sticky top-0">
           <Header data={data} />
         </div>
         {children}
