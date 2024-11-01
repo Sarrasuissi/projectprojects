@@ -147,7 +147,6 @@ function Footer() {
           </div>
         </div>
       </div>
-
       <div className="m-auto flex w-widthmenu flex-col bg-purple">
         <div className="h-[0.1px] w-full rounded-lg bg-lightGray opacity-10"></div>
         <div className="flex justify-between gap-5 py-5 text-white lg:flex-row">
@@ -167,6 +166,3 @@ function Footer() {
 }
 
 export default Footer;
-
-
-
