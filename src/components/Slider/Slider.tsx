@@ -14,27 +14,28 @@ function Slider() {
       }}
     >
       <div className="grid h-full text-white 2xl:basis-1/2">
-        <div className="mb-0 mt-auto">
-          <Link href={"/"}>
+        <div className="mb-0 mt-auto p-4 md:p-8 xl:p-12">
+          <Link href="/">
             <img
               src="/assets/icons/logo-menu.webp"
               alt="logo"
-              className="pb-16"
+              className="pb-14 max-w-full h-auto mx-auto md:mx-0"
             />
           </Link>
-          <div className="text-xl font-medium md:text-4xl">
+          <div className="text-xl font-medium md:text-3xl xl:text-4xl">
             Finky : Entreprise de conseil en gestion et RH en Tunisie
           </div>
-          <p className="py-10 pb-72  ">
+          <p className="py-10  pb-80">
             Finky est une entreprise de conseil en gestion et ressources
             humaines (RH) innovante en Tunisie. Située à Radès Meliane, dans le
             gouvernorat de Ben Arous, nous mettons notre expertise au service de
-            nos clients à travers toute la Tunisie. En tant qu&lsquo;entreprise de
-            gestion et conseil, notre objectif est d&lsquo;accompagner les entreprises
+            nos clients à travers toute la Tunisie. En tant qu’entreprise de
+            gestion et conseil, notre objectif est d’accompagner les entreprises
             dans leur développement stratégique et humain.
           </p>
         </div>
       </div>
+
       <div className="absolute inset-y-0 left-0 flex items-center ps-8">
         <button
           onClick={() => {

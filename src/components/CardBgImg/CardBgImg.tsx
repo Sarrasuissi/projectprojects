@@ -2,21 +2,21 @@ import React from "react";
 
 function CardBgImg(props: {
   data: {
-    Title?: string;
+    title?: string;
     listItem?: { subTitle?: string; subSubTitle?: string; desc?: string }[];
   };
 }) {
   return (
     <div className="lg:w-full w-defaultwidth m-auto text-white">
       <div
-        className="mb-20 py-52"
+        className="mb-20 py-32"
         style={{
           backgroundImage: `linear-gradient(to right, rgba(10, 28, 74, 0.9), rgba(12, 32, 81, 0.5), rgba(19, 26, 46, 0.4)), url('/assets/home/nos-services.webp')`,
           backgroundSize: "cover",
         }}
       >
         <div className="w-defaultwidth m-auto max-w-mwidth1">
-          <h2 className=" text-white">{props.data.Title}</h2>
+          <h2 className=" text-white text-3xl pb-10">{props.data.title}</h2>
           <div>
             {props.data.listItem?.map((item, index) => (
               <div key={index}>

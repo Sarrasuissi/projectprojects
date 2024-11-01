@@ -9,14 +9,26 @@ function CardWithDesc(props: {
   }[];
   basisdiv?: string;
   maxwWidth?: string;
+  backgroundStyle?: string;
 }) {
   return (
     <div
-      className={`w-defaultwidth m-auto flex flex-wrap md:justify-evenly justify-center py-10 ${props?.maxwWidth}`}
+    style={{
+      ...(props.backgroundStyle && {
+        backgroundImage: `url('/assets/icons/double-circle-left.webp')`,
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "left",
+      
+      }),
+    }}
+  ><div
+      className={`w-defaultwidth m-auto flex flex-wrap md:justify-evenly justify-center py-10    ${props?.maxwWidth}`}
+      
     >
       {props.data.map((item, index) => (
         <div
-          className={`hover:bg-gradient-to-t m-auto  sm:mb-8 from-[#6E7AA8] to-[#F3F6FD] hover:text-white ${props?.basisdiv}`}
+          className={`hover:bg-gradient-to-t m-auto  sm:mb-8 from-[#6E7AA8] to-[#F3F6FD] hover:text-white  ${props?.basisdiv}`}
           key={index}
         >
           <div className="relative">
@@ -34,7 +46,8 @@ function CardWithDesc(props: {
           </div>
         </div>
       ))}
-    </div>
+    </div></div>
+    
   );
 }
 
