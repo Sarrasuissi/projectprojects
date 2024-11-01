@@ -1,5 +1,7 @@
 "use client";
 
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -48,6 +50,15 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Function to toggle dropdown visibility
+  const toggleDropdown = (index: number) => {
+    setListOne((prevState) => {
+      const newState = Array(data.LevelOne.length).fill(false);
+      newState[index] = !prevState[index]; // Toggle the specific index
+      return newState;
+    });
+  };
+
   return (
     <div className="mt-[-60px] relative w-full">
       <div className="xl:pb-2 ">
@@ -71,19 +82,35 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
 
           <div className="w-defaultwidth pt-5 max-w-mediumwidth ms-auto lg:flex justify-evenly hidden">
             {data.LevelOne.map((item, index) => (
+              // <div
+              //   key={item.itemLevelOne}
+              //   onMouseEnter={() => {
+              //     const newState = Array(data.LevelOne.length).fill(false);
+              //     newState[index] = true;
+              //     setListOne(newState);
+              //   }}
+              //   className={`text-darkBlue cursor-pointer relative ${
+              //     !item.listOne ? "hover:text-lightBlue" : ""
+              //   }`}
+              // >
+
               <div
                 key={item.itemLevelOne}
-                onMouseEnter={() => {
-                  const newState = Array(data.LevelOne.length).fill(false);
-                  newState[index] = true;
-                  setListOne(newState);
-                }}
                 className={`text-darkBlue cursor-pointer relative ${
                   !item.listOne ? "hover:text-lightBlue" : ""
                 }`}
               >
-                <p className="text-base text-white">
+                <p
+                  className="text-base text-white flex items-center"
+                  onClick={() => toggleDropdown(index)}
+                >
                   <Link href={item.url}>{item.itemLevelOne}</Link>
+
+                  {item.listOne && item.listOne.length > 0 && (
+                    <span className="ml-2 cursor-pointer text-gray-600 hover:text-gray-800">
+                      <FontAwesomeIcon icon={faChevronDown} />
+                    </span>
+                  )}
                 </p>
 
                 {listOne[index] && item.listOne && (
@@ -93,7 +120,6 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
                       newState[index] = false;
                       setListOne(newState);
                     }}
-                    // Ajout de la classe flex conditionnellement pour "Nos Expertises"
                     className={`absolute min-w-60 pb-5 border-t-4 mt-6 m-auto z-50 border-lightBlue shadow-custom py-2 bg-darkBlue text-white  ${
                       item.itemLevelOne === "Nos Expertises" ? "flex" : ""
                     }`}
